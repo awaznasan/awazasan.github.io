@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Hem &amp; Hälsa – Balans">
+  <circle cx="37" cy="50" r="28" fill="none" stroke="#3F6B4E" stroke-width="6"/>
+  <circle cx="63" cy="50" r="28" fill="none" stroke="#7FA66B" stroke-width="6"/>
+  <path d="M50 25.2 A28 28 0 0 1 50 74.8 A28 28 0 0 1 50 25.2 Z" fill="#D9785B"/>
+</svg>

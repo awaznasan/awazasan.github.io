@@ -3,37 +3,92 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hem &amp; Hälsa – logotyp</title>
-<link rel="icon" href="icon.svg">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;1,400&family=DM+Sans&display=swap" rel="stylesheet">
+<title>Hem &amp; Hälsa – logokoncept</title>
+<link rel="icon" href="koncept-3-balans.svg">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;1,400&family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
 <style>
-  body{margin:0;font-family:'DM Sans',sans-serif;background:#F4EFE6;color:#2E4A38}
-  main{max-width:900px;margin:0 auto;padding:48px 16px;display:grid;gap:24px}
-  .card{border-radius:20px;padding:40px;display:grid;place-items:center}
-  .light{background:#fff}.dark{background:#2E4A38}
-  .row{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:24px}
-  img{max-width:100%}
-  .swatches{display:flex;gap:12px;flex-wrap:wrap}
-  .sw{width:110px;height:70px;border-radius:12px;display:flex;align-items:flex-end;padding:8px;font-size:12px;box-sizing:border-box}
+  :root{--green:#3F6B4E;--deep:#2E4A38;--clay:#D9785B;--cream:#F4EFE6}
+  body{margin:0;font-family:'DM Sans',Arial,sans-serif;background:var(--cream);color:var(--deep)}
+  main{max-width:960px;margin:0 auto;padding:48px 16px;display:grid;gap:40px}
+  h1{font-family:Fraunces,Georgia,serif;margin:0}
+  section{display:grid;gap:14px}
+  h2{margin:0;font-size:15px;letter-spacing:.12em;text-transform:uppercase}
+  p{margin:0;max-width:60ch;line-height:1.5}
+  .pair{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+  .card{border-radius:20px;padding:36px 24px;display:flex;align-items:center;justify-content:center;gap:18px;background:#fff}
+  .card.dark{background:var(--deep);color:var(--cream)}
+  .card img{width:84px;height:84px}
+  .card.dark img{background:var(--cream);border-radius:20px;padding:8px}
+  .serif{font-family:Fraunces,Georgia,serif;font-size:38px;font-weight:600;line-height:1}
+  .serif i{color:var(--clay);font-weight:400}
+  .sans{font-family:'DM Sans',Arial,sans-serif;font-weight:700;font-size:30px;letter-spacing:-.02em;text-transform:lowercase}
+  .sans b{color:var(--clay)}
+  .stack{display:grid;gap:6px}
+  .tag{font-size:11px;letter-spacing:.3em;opacity:.7}
+  .dotword{font-family:'DM Sans',Arial,sans-serif;font-weight:700;font-size:56px;letter-spacing:-.03em;line-height:1;padding-top:.2em}
+  .ae{position:relative;display:inline-block}
+  .ae svg{position:absolute;left:50%;top:-.06em;width:.6em;height:.33em;transform:translateX(-50%)}
+  .rings{font-family:Fraunces,Georgia,serif;font-size:34px;font-weight:600;letter-spacing:.02em}
+  .new{display:inline-block;background:var(--clay);color:#fff;font-size:10px;letter-spacing:.15em;padding:3px 8px;border-radius:99px;margin-left:8px;vertical-align:middle}
 </style>
 </head>
 <body>
 <main>
-  <h1 style="font-family:Fraunces,serif;margin:0">Hem &amp; Hälsa – logotyp</h1>
-  <div class="card light"><img src="logo.svg" width="520" alt="Hem & Hälsa logotyp"></div>
-  <div class="card dark"><img src="logo-ljus.svg" width="520" alt="Hem & Hälsa logotyp, ljus variant"></div>
-  <div class="row">
-    <div class="card light"><img src="icon.svg" width="120" alt="Ikon"></div>
-    <div class="card light"><img src="icon.svg" width="48" alt="Ikon liten"></div>
-    <div class="card dark"><img src="icon.svg" width="120" alt="Ikon på mörk bakgrund" style="background:#F4EFE6;border-radius:24px;padding:10px"></div>
-  </div>
-  <div class="swatches">
-    <div class="sw" style="background:#3F6B4E;color:#fff">#3F6B4E</div>
-    <div class="sw" style="background:#7FA66B;color:#fff">#7FA66B</div>
-    <div class="sw" style="background:#D9785B;color:#fff">#D9785B</div>
-    <div class="sw" style="background:#2E4A38;color:#fff">#2E4A38</div>
-    <div class="sw" style="background:#F4EFE6;border:1px solid #ccc">#F4EFE6</div>
-  </div>
+  <h1>Hem &amp; Hälsa – sex logokoncept</h1>
+
+  <section>
+    <h2>1 · Blomkors</h2>
+    <p>Fyra blad som bildar ett plustecken, vårdens symbol, men mjukt och levande som en blomma. Ett blad i terrakotta ger värme och gör märket lätt att känna igen.</p>
+    <div class="pair">
+      <div class="card"><img src="koncept-1-blomkors.svg" alt=""><div class="stack"><span class="serif">Hem <i>&amp;</i> Hälsa</span><span class="tag">VÄLMÅENDE INIFRÅN</span></div></div>
+      <div class="card dark"><img src="koncept-1-blomkors.svg" alt=""><div class="stack"><span class="serif">Hem <i>&amp;</i> Hälsa</span><span class="tag">VÄLMÅENDE INIFRÅN</span></div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>2 · Pulsblad</h2>
+    <p>En pulslinje som slår och sedan blir ett blad. Den visar hälsa som något som växer, från hjärtslag till liv.</p>
+    <div class="pair">
+      <div class="card"><img src="koncept-2-pulsblad.svg" alt="" style="width:100px"><span class="sans">hem <b>&amp;</b> hälsa</span></div>
+      <div class="card dark"><img src="koncept-2-pulsblad.svg" alt="" style="width:100px"><span class="sans">hem <b>&amp;</b> hälsa</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>3 · Balans</h2>
+    <p>Två cirklar, kropp och sinne, som överlappar varandra. Där de möts bildas ett blad i terrakotta, och det är där hälsan finns. Märket är enkelt och tidlöst och fungerar i alla storlekar.</p>
+    <div class="pair">
+      <div class="card"><img src="koncept-3-balans.svg" alt=""><div class="stack"><span class="serif">Hem <i>&amp;</i> Hälsa</span><span class="tag">KROPP · SINNE · BALANS</span></div></div>
+      <div class="card dark"><img src="koncept-3-balans.svg" alt=""><div class="stack"><span class="serif">Hem <i>&amp;</i> Hälsa</span><span class="tag">KROPP · SINNE · BALANS</span></div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>4 · Prickarna <span class="new">FAVORIT</span></h2>
+    <p>Svenskt och oväntat. Prickarna över <b>ä</b> i "hälsa" är ett blad och en sol. Det enda som behövs är ordet själv. Prickarna fungerar också ensamma som ikon.</p>
+    <div class="pair">
+      <div class="card"><span class="dotword">h<span class="ae">a<svg viewBox="18 30 66 36" aria-hidden="true"><path d="M42 62 C30 60 22 50 22 34 C38 34 46 44 42 62 Z" fill="#7FA66B"/><circle cx="66" cy="50" r="13" fill="#D9785B"/></svg></span>lsa</span></div>
+      <div class="card dark"><img src="koncept-4-prickarna.svg" alt=""><span class="dotword" style="font-size:44px">h<span class="ae">a<svg viewBox="18 30 66 36" aria-hidden="true"><path d="M42 62 C30 60 22 50 22 34 C38 34 46 44 42 62 Z" fill="#7FA66B"/><circle cx="66" cy="50" r="13" fill="#D9785B"/></svg></span>lsa</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>5 · Årsringar <span class="new">NY</span></h2>
+    <p>Ringar som i en trädstam, eller ett fingeravtryck. Hälsa byggs upp lager för lager över tid och är alltid personlig. Kärnan i terrakotta är du.</p>
+    <div class="pair">
+      <div class="card"><img src="koncept-5-arsringar.svg" alt="" style="width:96px;height:96px"><div class="stack"><span class="rings">Hem <i style="color:var(--clay);font-weight:400">&amp;</i> Hälsa</span><span class="tag">VÄX INIFRÅN</span></div></div>
+      <div class="card dark"><img src="koncept-5-arsringar.svg" alt="" style="width:96px;height:96px"><div class="stack"><span class="rings">Hem <i style="color:var(--clay);font-weight:400">&amp;</i> Hälsa</span><span class="tag">VÄX INIFRÅN</span></div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>6 · Grodd <span class="new">NY</span></h2>
+    <p>Ett gement <b>h</b>, både för hem och för hälsa, där det spirar ett blad ur toppen. Det ser ut som ett monogram men berättar om tillväxt.</p>
+    <div class="pair">
+      <div class="card"><img src="koncept-6-grodd.svg" alt=""><span class="sans">hem <b>&amp;</b> hälsa</span></div>
+      <div class="card dark"><img src="koncept-6-grodd.svg" alt=""><span class="sans">hem <b>&amp;</b> hälsa</span></div>
+    </div>
+  </section>
 </main>
 </body>
 </html>

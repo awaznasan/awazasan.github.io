@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Hem &amp; Hälsa – Blomkors">
+  <path d="M50 45 C39 35 40 18 50 6 C60 18 61 35 50 45 Z" fill="#3F6B4E"/>
+  <path d="M50 45 C39 35 40 18 50 6 C60 18 61 35 50 45 Z" fill="#7FA66B" transform="rotate(90 50 50)"/>
+  <path d="M50 45 C39 35 40 18 50 6 C60 18 61 35 50 45 Z" fill="#3F6B4E" transform="rotate(180 50 50)"/>
+  <path d="M50 45 C39 35 40 18 50 6 C60 18 61 35 50 45 Z" fill="#D9785B" transform="rotate(270 50 50)"/>
+</svg>
